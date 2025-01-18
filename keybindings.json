@@ -1,0 +1,81 @@
+// Place your key bindings in this file to override the defaults
+[
+  /// new file
+  {
+    "key": "Ctrl+x n",
+    "command": "extension.advancedNewFile",
+  },
+  /// windows navigation
+  {
+    "key": "Alt-o",
+    "command": "workbench.action.navigateEditorGroups",
+    "when": "!terminalFocus",
+  },
+  // navigations between symbols
+  {
+    "key": "Alt+g i",
+    "command": "workbench.action.gotoSymbol",
+  },
+  {
+    "key": "Ctrl-x Ctrl-j",
+    "command": "workbench.files.action.focusFilesExplorer",
+  },
+  // go to the URL at point
+  {
+    "key": "ctrl+alt+.",
+    "command": "editor.action.openLink"
+  },
+  // Duplicate the current line
+  {
+    "key": "ctrl+x ctrl+y",
+    "command": "editor.action.duplicateSelection"
+  },
+  // Find defintion (Alt-. and Alt-,)
+  {
+    "key": "alt+.",
+    "command": "editor.action.goToDeclaration"
+  },
+  {
+    "key": "alt+,",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+x p",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    "key": "Alt+j",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  // explorer
+  {
+    "key": "shift-=",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus && !textInputFocus",
+  },
+  {
+    "key": "Ctrl+n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !textInputFocus",
+  },
+  {
+    "key": "Ctrl-x Ctrl-p",
+    "command": "python.startREPL",
+  },
+  {
+    "key": "ctrl-shift-r",
+    "command": "workbench.action.tasks.runTask",
+    "args": "cat input.txt"
+  }
+]

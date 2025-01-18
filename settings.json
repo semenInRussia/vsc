@@ -1,0 +1,139 @@
+{
+  /// theme
+  "workbench.colorTheme": "GitHub Light Default",
+  /// font and icons  
+  "editor.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  // shit
+  "workbench.startupEditor": "terminal",
+  // view
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+  "workbench.editor.showTabs": "single", // but... Switch buffers using Ctrl-x Ctrl-f
+  "workbench.editor.highlightModifiedTabs": false,
+  "window.menuBarVisibility": "compact",
+  "editor.folding": false,
+  // breadcrumbs is shit
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showConstructors": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showEnums": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showNamespaces": false,
+  "breadcrumbs.showModules": false,
+  "breadcrumbs.showNull": false,
+  "breadcrumbs.showNumbers": false,
+  "breadcrumbs.showObjects": false,
+  "breadcrumbs.showOperators": false,
+  "breadcrumbs.showPackages": false,
+  "breadcrumbs.showProperties": false,
+  "breadcrumbs.showStrings": false,
+  "breadcrumbs.showTypeParameters": false,
+  "breadcrumbs.showVariables": false,
+  /// disable scroll bar
+  "editor.hideCursorInOverRuler": true,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  /// Explorer:
+  /// --
+  /// in explorer indent guides and colors (git statuses of files)
+  /// are useless
+  "workbench.tree.renderIndentGuides": "none",
+  "explorer.decorations.colors": false,
+  "explorer.decorations.badges": false,
+  // confirmation is bad! (c)
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  // line spacing is matters
+  "editor.lineHeight": 1.5,
+  "editor.padding.top": 0.5,
+  /// Editing Settings!! (almost Emacs (joke))
+  "editor.useTabStops": false,
+  "editor.tabSize": 2,
+  /// autosave and format on save
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  /// Settings of Extensions Installiation
+  "extensions.ignoreRecommendations": true,
+  // Git
+  "git.autofetch": true,
+  // terminal
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "git.enableStatusBarSync": false,
+  // python
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.enablePytestSupport": false,
+  "python.analysis.typeCheckingMode": "standard",
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.tabSize": 4
+  },
+  // C++
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.clang_format_fallbackStyle": "LLVM",
+  // ...
+  "files.insertFinalNewline": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "problems.showCurrentInStatus": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "debug.onTaskErrors": "showErrors",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "git.confirmSync": false,
+  // template: when create cpp file insert basic template
+  "auto-snippets.snippets": [
+    {
+      "language": "cpp",
+      "snippet": "templ"
+    }
+  ],
+  "files.exclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "files.watcherExclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "workbench.colorCustomizations": {
+    "[NotepadPlusPlus Remixed Theme]": {
+      "activityBar.background": "#f3f3f3",
+      "activityBar.foreground": "#333333",
+      "editor.wordHighlightBackground": "#55222211",
+    },
+    "[Default Light Modern]": {
+      "editor.lineHighlightBorder": "#ffffff00",
+      "editor.lineHighlightBackground": "#efefff",
+    }
+  },
+  "C_Cpp.default.compilerArgs": [
+    "-Wall",
+    "-Dhome"
+  ],
+  "window.newWindowProfile": "Default",
+}
